@@ -166,6 +166,7 @@ section {
 /* Título */
 
 
+
 .hero-content {
   position: absolute;
   inset: 0;
@@ -177,11 +178,11 @@ section {
 .hero-content h1 {
   position: absolute;
   top: 50%;
-  left: 35px;
+  left: 80px;
   margin: 0;
 
-  transform: translateY(-50%) rotate(-90deg);
-  transform-origin: left center;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  transform-origin: center center;
 
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(3rem, 6vw, 6rem);
