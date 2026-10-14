@@ -165,25 +165,28 @@ section {
 
 /* Título */
 
+
 .hero-content {
   position: absolute;
- 
+  inset: 0;
   color: white;
   z-index: 2;
+  pointer-events: none;
 }
-
-
 
 .hero-content h1 {
   position: absolute;
   top: 50%;
-  left: 40px;
+  left: 35px;
+  margin: 0;
+
   transform: translateY(-50%) rotate(-90deg);
   transform-origin: left center;
 
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 400;
+  line-height: 1;
   color: white;
   white-space: nowrap;
 }
