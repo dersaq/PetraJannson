@@ -178,7 +178,7 @@ section {
 .hero-content h1 {
   position: absolute;
   top: 50%;
-  left: 80px;
+  left:50%;
   margin: 0;
 
   transform: translate(-50%, -50%) rotate(-90deg);
