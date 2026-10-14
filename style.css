@@ -333,6 +333,7 @@ section {
 
 /* ABOUT ME */
 .about-section {
+   margin-top:-50px;
   width: 100%;
   background: #f4f0ea;
   color: #29251f;
@@ -404,6 +405,7 @@ section {
 /* Móvil */
 @media (max-width: 600px) {
   .about-section {
+     margin-top:0px;
     padding: 45px 6%;
   }
 
