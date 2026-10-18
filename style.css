@@ -206,7 +206,11 @@ section {
 }
 
 
-
+@media (max-width: 768px) {
+  .hero-image {
+    background-position: center 70%;
+  }
+}
 
 /* =========================================
    ABOUT PETRA
