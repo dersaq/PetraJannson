@@ -608,24 +608,21 @@ section {
 ========================= */
 
 .soil-gallery {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr 0.8fr;
-  grid-template-rows: 220px 220px 220px;
-  gap: 14px;
-  width: 100%;
+  columns: 3;
+  column-gap: 14px;
   padding: 25px 3%;
 }
 
 .soil-gallery .gallery-item {
-  min-width: 0;
-  min-height: 0;
+  break-inside: avoid;
+  margin-bottom: 14px;
   overflow: hidden;
 }
 
 .soil-gallery .gallery-item img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
   transition: transform 0.6s ease;
 }
@@ -634,30 +631,14 @@ section {
   transform: scale(1.04);
 }
 
-.soil-gallery .gallery-item-1 {
-  grid-column: 1;
-  grid-row: 1 / 3;
+@media (max-width: 700px) {
+  .soil-gallery {
+    columns: 2;
+  }
 }
 
-.soil-gallery .gallery-item-2 {
-  grid-column: 2;
-  grid-row: 1;
-}
 
-.soil-gallery .gallery-item-3 {
-  grid-column: 3;
-  grid-row: 1 / 3;
-}
 
-.soil-gallery .gallery-item-4 {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.soil-gallery .gallery-item-5 {
-  grid-column: 1 / 3;
-  grid-row: 3;
-}
 
 
 
