@@ -142,7 +142,7 @@ section {
 .hero-image {
   position: absolute;
   inset: 0;
-  background-image: url("img/petra-banner.png");
+  background-image: url("img/banner-bueno-jpg");
   background-size: cover;
   background-position: center;
 }
